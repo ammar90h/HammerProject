@@ -1,0 +1,9 @@
+﻿@model HammerProject.Models.SalaryViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Salary</h2>
+
+<p>Average Salary for Developers: @Model.AverageDevelopmentSalary.ToString("#.##")</p>
